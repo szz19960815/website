@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+header{
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.logo{
+	width: 1000px;
+	margin: 40px 0;
+}
+
+header nav{
+	margin-bottom: 40px;
+	width: 1000px;
+	text-align: left;
+}
+
+header nav i{
+	position: relative;
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+    margin-left: 30px;
+    text-align: center;
+}
+
+header nav i>span{
+	z-index: 2;
+    display: block;
+}
+
+header nav i>.en{
+	font-size: 14px;
+	z-index: 1;
+    display: block;
+    color: #fff;
+    opacity: 0;
+    transition: transform 0.3s, opacity 0.3s;
+    transform: translateY(-100%);
+}
+
+header nav i:hover .en{
+	opacity: 1;
+	transform: translateY(0%);
+}

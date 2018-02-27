@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* reset  */
+body,button,input,select,textarea{font:14px/1.5 Tahoma,Helvetica,"Microsoft YaHei",Arial,sans-serif;}
+body,h1,h2,h3,h4,h5,h6,dl,dt,dd,ul,ol,li,th,td,p,blockquote,pre,form,fieldset,legend,input,button,textarea,article,aside,footer,header,hgroup,nav,section,menu{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+li{list-style:none;}
+fieldset,img{border:0;vertical-align:middle;}
+input,textarea{outline-style:none;}
+textarea{resize:none;}
+article,aside,footer,header,hgroup,nav,section,menu{display:block;}
+address,caption,cite,code,dfn,em,i,th,var{font-style:normal;font-weight:400;}
+a{text-decoration:none;outline:none; color:#565656;cursor: pointer;}
+body{font:14px/1.5 Tahoma,Helvetica,"Microsoft YaHei",Arial,sans-serif;	background: url(top.jpg) no-repeat center top #075498;; color:white;min-width: 1200px;}
